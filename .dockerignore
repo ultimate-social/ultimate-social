@@ -23,6 +23,7 @@ __pycache__
 dist
 docs
 env
+.env
 venv
 logs
 node_modules
