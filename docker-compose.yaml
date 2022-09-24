@@ -1,0 +1,33 @@
+version: '3.3'
+services:
+  db:
+    image: mysql:8
+    ports:
+      - "3306:3306"
+    environment:
+        MYSQL_DATABASE: 'social'
+        MYSQL_PASSWORD: 'some_password'
+        MYSQL_ROOT_PASSWORD: 'some_password'
+    healthcheck:
+      test: mysqladmin ping -h 127.0.0.1 -u root --password=$$MYSQL_PASSWORD
+    volumes:
+      - /tmp/app/mysqld:/var/run/mysqld
+  web:
+    build: .
+    env_file:
+      - .env
+    #command: python manage.py runserver 0.0.0.0:8000
+    #image: ultimate-social
+    restart: on-failure:10
+    ports:
+      - '8000:8000'
+    expose:
+      - '8000'
+    volumes:
+      - .:/app
+      - /tmp/app/mysqld:/run/mysqld
+    depends_on:
+      db:
+        condition: service_healthy
+    links:
+      - db
