@@ -1,8 +1,11 @@
-#from django.shortcuts import render
-
 # Create your views here.
-
-from django.http import HttpResponse
+from django.shortcuts import render
 
 def index(request):
-    return HttpResponse("<br><br><center>Hello, world. You're at the ultimate-social app <br> sql connection successful<center>")
+    return render(request,"index.html")
+
+def comp_alert(request):
+    return render(request, "components-alerts.html")
+
+def usr_profile(request):
+    return render(request,"users-profile.html")
