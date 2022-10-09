@@ -8,11 +8,15 @@ Ultimate social is the ultimate social bridge between Web2 and Web3 social media
 
 [insert link to production instance]
 
-# Tech Stack
+## Tech Stack
 
-## **Client**
 
-## **Server**
+### **Client**
+- Bootstrap
+
+### **Server**
+- Python
+- Django
 
 **Status:** 0.01 “link to changelog”
 
@@ -45,13 +49,16 @@ Please use “Ultimate Social forum” for quick answers to your questions.
 
 # Getting involved
 
-This section should detail why people should get involved and describe key areas you are currently focusing on; e.g., trying to get feedback on features, fixing certain bugs, building important pieces, etc.
+Here are the steps on how you can contibute to this project. Make sure you have python and pip installed in yout machine.
 
-General instructions on *how* to contribute should be stated with a link to [CONTRIBUTING](https://github.com/cfpb/open-source-project-template/blob/main/CONTRIBUTING.md).
+1. Clone the repo and CD into the directory
+2. Install dependncies using `pip install -r requirements.txt` (you can create virtual env if you want to)
+3. Run migration `python proj/manage.py migrate`
+4. Run the local server `python proj/manage.py runserver 0.0.0.0:8000`
 
 **What Now?**
 
-Once you have installed, continue reading “Start contributing” 
+open [localhost:8000](http://localhost:8000) in your browser. You can do any code change in your editor and it will get reflected in the browser.
 
 # **Important links & Docs**
 
