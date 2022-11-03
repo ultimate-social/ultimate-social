@@ -26,30 +26,13 @@ Show users how to use the software. Be specific. Use appropriate formatting when
 
 # Dependencies
 
-Describe any dependencies that must be installed for this software to work. This includes programming languages, databases or other storage mechanisms, build tools, frameworks, and so forth. If specific versions of other software are required, or known not to work, call that out.
+Python & Pip
 
-# **Installation**
-
-Detailed instructions on how to install, configure, and get the project running. This should be frequently tested to ensure reliability. Alternatively, link to a separate [INSTALL](https://github.com/cfpb/open-source-project-template/blob/main/INSTALL.md)
- document.
-
-# Environment Variables
-
-# Known Issues
-
-Document any known significant shortcomings with the software.****
-
-# Getting help
-
-Instruct users how to get help with this software; this might include links to an issue tracker, wiki, mailing list, etc.
-
-Review the extensive documentation in “Ultimate Social Docs”. Make sure to select the correct version. 
-
-Please use “Ultimate Social forum” for quick answers to your questions. 
+## Steps to contribute 
 
 # Getting involved
 
-Here are the steps on how you can contibute to this project. Make sure you have python and pip installed in yout machine.
+# **Installation**
 
 1. Clone the repo and CD into the directory
 2. Install dependncies using `pip install -r requirements.txt` (you can create virtual env if you want to)
@@ -58,7 +41,22 @@ Here are the steps on how you can contibute to this project. Make sure you have 
 
 **What Now?**
 
-open [localhost:8000](http://localhost:8000) in your browser. You can do any code change in your editor and it will get reflected in the browser.
+Open [localhost:8000](http://localhost:8000) in your browser. You can do any code change in your editor and it will get reflected in the browser.
+
+
+# Environment Variables
+
+# Known Issues
+
+No Known Issues at the moment***
+
+# Getting help
+
+
+- Submit your Issues on GitHub with the relevant tags/labels
+- Join the [waitlist] (https://www.notion.so/pooriaarab/Ultimate-Social-e7aabb982c4342c69ca10e11871164ed) 
+- Review the extensive documentation in “Ultimate Social Docs”. Make sure to select the correct version. 
+- Please use “Ultimate Social Reddit” for quick answers to your questions. 
 
 # **Important links & Docs**
 
@@ -74,14 +72,13 @@ This project follows “all-contirbutors” specification. Contributions of any 
 
 # **License**
 
-Licensed under the Apache License, Version 2.0. Copyright 2021 Rasa Technologies GmbH. “Copy of the license”. 
+Licensed under the Apache License, Version 2.0. Copyright 2022 BeeHouse Foundation “Copy of the license”. 
 
 # Used by
 
-This project is used by the following companies:
+This project is used by the following companies: 
+[BeeHouse DAO](https://house.beeloud.xyz) 
 
 # Credits and references
 
-1. Projects that inspired you
-2. Related projects
-3. Books, papers, talks, or other sources that have meaningful impact or influence on this project
+
